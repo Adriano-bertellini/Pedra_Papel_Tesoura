@@ -32,7 +32,7 @@ import random
 list_random = [pedra, papel, tesoura]
 num_items = len(list_random)
 
-machine_random = random.randint(0, num_items -1)
+machine_random = random.randint(0, 2)
 
 if player == "0":
     print(f"Você escolheu\n{pedra}")
